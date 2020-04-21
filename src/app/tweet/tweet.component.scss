@@ -1,0 +1,72 @@
+.card{
+    padding: 10px 20px;
+    box-shadow: 0px 0px 5px #ccc;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 20px;
+    max-width: 200px;
+    min-width: 200px;
+    background-color: #fff;
+    .card-logo{
+        position: absolute;
+        top: -20px;
+        right: -22px;
+    }
+}
+
+.text-blue{
+    color: #1da1f2;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border: 1px dotted #ccc;
+    padding: 25px 50px;
+    border-radius: 5px;
+}
+
+.tweet-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-tweet{
+    display: block;
+    font-weight: bolder;
+    color: #75bfee;
+}
+
+.input-form{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.btn-tweet{
+    border: 1px solid #1da1f2;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #1da1f2;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-tweet:hover{
+    background-color: #75bfee;
+}
